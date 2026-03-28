@@ -11,13 +11,13 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { GlassCard } from "@/components/glass-card";
 
-import dragonSlots from "@assets/generated_images/game_dragon_slots.jpg";
-import coinflipArt from "@assets/generated_images/game_coinflip_premium.jpg";
-import crashArt from "@assets/generated_images/game_crash_rocket.jpg";
-import arcadeClassics from "@assets/generated_images/game_arcade_classics.jpg";
-import leprechaunSlots from "@assets/generated_images/game_leprechaun_slots.jpg";
-import cardGames from "@assets/generated_images/game_card_games.jpg";
-import minesweeperArt from "@assets/generated_images/game_minesweeper.jpg";
+const dragonSlots = "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?q=80&w=600&auto=format&fit=crop";
+const coinflipArt = "https://images.unsplash.com/photo-1621360841013-c7683109a150?q=80&w=600&auto=format&fit=crop";
+const crashArt = "https://images.unsplash.com/photo-1541185933-ef5d8ed016c2?q=80&w=600&auto=format&fit=crop";
+const arcadeClassics = "https://images.unsplash.com/photo-1550745165-9bc0b252726f?q=80&w=600&auto=format&fit=crop";
+const leprechaunSlots = "https://images.unsplash.com/photo-1596489345260-26514fc2a76f?q=80&w=600&auto=format&fit=crop";
+const cardGames = "https://images.unsplash.com/photo-1511193311914-0346f16efe90?q=80&w=600&auto=format&fit=crop";
+const minesweeperArt = "https://images.unsplash.com/photo-1614294148960-9aa740632a87?q=80&w=600&auto=format&fit=crop";
 
 interface GameItem {
   id: string;

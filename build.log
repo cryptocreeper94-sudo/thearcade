@@ -1,0 +1,81 @@
+
+> thearcade@1.0.0 build
+> vite build && esbuild server/index.ts --platform=node --packages=external --bundle --format=esm --outfile=dist/index.js
+
+vite.config.ts (15:23) [UNRESOLVED_IMPORT] Warning: Could not resolve '@replit/vite-plugin-cartographer' in vite.config.ts
+    Γò¡ΓöÇ[ vite.config.ts:15:24 ]
+    Γöé
+ 15 Γöé           await import("@replit/vite-plugin-cartographer").then((m) =>
+    Γöé                        ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓö¼ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ  
+    Γöé                                         Γò░ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ Module not found, treating it as an external dependency
+ΓöÇΓöÇΓöÇΓöÇΓò»
+
+vite.config.ts (18:23) [UNRESOLVED_IMPORT] Warning: Could not resolve '@replit/vite-plugin-dev-banner' in vite.config.ts
+    Γò¡ΓöÇ[ vite.config.ts:18:24 ]
+    Γöé
+ 18 Γöé           await import("@replit/vite-plugin-dev-banner").then((m) =>
+    Γöé                        ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓö¼ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ  
+    Γöé                                        Γò░ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ Module not found, treating it as an external dependency
+ΓöÇΓöÇΓöÇΓöÇΓò»
+
+[36mvite v8.0.3 [32mbuilding client environment for production...[36m[39m
+[2K
+transforming...Γ£ô 1994 modules transformed.
+Γ£ù Build failed in 1.24s
+error during build:
+Build failed with 9 errors:
+
+[UNLOADABLE_DEPENDENCY] Error: Could not load client/src/components/not-found
+   Γò¡ΓöÇ[ client/src/App.tsx:5:22 ]
+   Γöé
+ 5 Γöé import NotFound from "@/components/not-found";
+   Γöé                      ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓö¼ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ  
+   Γöé                                  Γò░ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ The system cannot find the file specified. (os error 2)
+ΓöÇΓöÇΓöÇΓò»
+
+[plugin @tailwindcss/vite:generate:build] D:/thearcade/client/src/index.css
+Error: Can't resolve 'tw-animate-css' in 'D:\thearcade\client\src'
+    at finishWithoutResolve (D:\thearcade\node_modules\enhanced-resolve\lib\Resolver.js:587:18)
+    at D:\thearcade\node_modules\enhanced-resolve\lib\Resolver.js:679:14
+    at D:\thearcade\node_modules\enhanced-resolve\lib\Resolver.js:740:5
+    at eval (eval at create (D:\thearcade\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)
+    at D:\thearcade\node_modules\enhanced-resolve\lib\Resolver.js:740:5
+    at eval (eval at create (D:\thearcade\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:27:1)
+    at D:\thearcade\node_modules\enhanced-resolve\lib\DescriptionFilePlugin.js:89:43
+    at D:\thearcade\node_modules\enhanced-resolve\lib\Resolver.js:740:5
+    at eval (eval at create (D:\thearcade\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)
+    at D:\thearcade\node_modules\enhanced-resolve\lib\Resolver.js:740:5
+[plugin vite:asset]
+Error: ENOENT: no such file or directory, open 'D:\thearcade\attached_assets\generated_images\game_dragon_slots.jpg'
+    at async open (node:internal/fs/promises:642:25)
+    at async Object.readFile (node:internal/fs/promises:1279:14)
+    at async fileToBuiltUrl (file:///D:/thearcade/node_modules/vite/dist/node/chunks/node.js:19099:18)
+    at async LoadPluginContextImpl.handler (file:///D:/thearcade/node_modules/vite/dist/node/chunks/node.js:18989:15)
+    at async plugin (file:///D:/thearcade/node_modules/rolldown/dist/shared/bindingify-input-options-e7ze4hPR.mjs:1163:16)
+    at async plugin.<computed> (file:///D:/thearcade/node_modules/rolldown/dist/shared/bindingify-input-options-e7ze4hPR.mjs:1593:12)
+[plugin vite:asset]
+Error: ENOENT: no such file or directory, open 'D:\thearcade\attached_assets\generated_images\game_coinflip_premium.jpg'
+    at async open (node:internal/fs/promises:642:25)
+    at async Object.readFile (node:internal/fs/promises:1279:14)
+    at async fileToBuiltUrl (file:///D:/thearcade/node_modules/vite/dist/node/chunks/node.js:19099:18)
+    at async LoadPluginContextImpl.handler (file:///D:/thearcade/node_modules/vite/dist/node/chunks/node.js:18989:15)
+    at async plugin (file:///D:/thearcade/node_modules/rolldown/dist/shared/bindingify-input-options-e7ze4hPR.mjs:1163:16)
+    at async plugin.<computed> (file:///D:/thearcade/node_modules/rolldown/dist/shared/bindingify-input-options-e7ze4hPR.mjs:1593:12)
+[plugin vite:asset]
+Error: ENOENT: no such file or directory, open 'D:\thearcade\attached_assets\generated_images\game_crash_rocket.jpg'
+    at async open (node:internal/fs/promises:642:25)
+    at async Object.readFile (node:internal/fs/promises:1279:14)
+    at async fileToBuiltUrl (file:///D:/thearcade/node_modules/vite/dist/node/chunks/node.js:19099:18)
+    at async LoadPluginContextImpl.handler (file:///D:/thearcade/node_modules/vite/dist/node/chunks/node.js:18989:15)
+    at async plugin (file:///D:/thearcade/node_modules/rolldown/dist/shared/bindingify-input-options-e7ze4hPR.mjs:1163:16)
+    at async plugin.<computed> (file:///D:/thearcade/node_modules/rolldown/dist/shared/bindingify-input-options-e7ze4hPR.mjs:1593:12)
+...
+    at aggregateBindingErrorsIntoJsError (file:///D:/thearcade/node_modules/rolldown/dist/shared/error-BLhcSyeg.mjs:48:18)
+    at unwrapBindingResult (file:///D:/thearcade/node_modules/rolldown/dist/shared/error-BLhcSyeg.mjs:18:128)
+    at #build (file:///D:/thearcade/node_modules/rolldown/dist/shared/rolldown-build-CPrIX9V6.mjs:3313:34)
+    at async buildEnvironment (file:///D:/thearcade/node_modules/vite/dist/node/chunks/node.js:32849:64)
+    at async Object.build (file:///D:/thearcade/node_modules/vite/dist/node/chunks/node.js:33271:19)
+    at async Object.buildApp (file:///D:/thearcade/node_modules/vite/dist/node/chunks/node.js:33268:153)
+    at async CAC.<anonymous> (file:///D:/thearcade/node_modules/vite/dist/node/cli.js:778:3) {
+  errors: [Getter/Setter]
+}
