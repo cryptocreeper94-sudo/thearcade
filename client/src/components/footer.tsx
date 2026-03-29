@@ -206,9 +206,9 @@ export function Footer() {
       <footer className="bg-black border-t border-white/10">
         <div className="container mx-auto px-4 py-4">
           <div className="flex flex-wrap items-center justify-center gap-x-2 gap-y-1 text-xs text-white/50">
-            <span className="text-white/70">DarkWave Studios, LLC</span>
-            <span className="text-white/30">•</span>
-            <span>© 2026</span>
+            <a href="https://darkwavestudios.io" target="_blank" rel="noopener noreferrer" className="text-white/70 hover:text-cyan-400 transition-colors">
+              &copy; 2026 DarkWave Studios LLC
+            </a>
             <span className="text-white/30">•</span>
             <Link href="/terms" className="hover:text-cyan-400 transition-colors" data-testid="link-terms">
               Terms
