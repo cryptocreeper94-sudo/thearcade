@@ -4,10 +4,12 @@ import { QueryClientProvider } from "@tanstack/react-query";
 import { Toaster } from "@/components/ui/toaster";
 import NotFound from "@/components/not-found";
 import Arcade from "@/pages/home";
+import { FloatingThemeToggle } from "@/components/theme-toggle";
 
 function Router() {
   return (
     <Switch>
+      <FloatingThemeToggle />
       <Route path="/" component={Arcade} />
       <Route path="/arcade" component={Arcade} />
       <Route component={NotFound} />
