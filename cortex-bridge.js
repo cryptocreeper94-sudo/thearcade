@@ -1,5 +1,5 @@
-ï»¿/**
- * Cortex Bridge â€ The Arcade
+???/**
+ * Cortex Bridge " The Arcade
  * Trust Layer Ecosystem Â· Lume-OS Connectivity Module
  * Generated: 2026-04-30 Â· DarkWave Studios LLC
  *
@@ -10,26 +10,26 @@
  */
 
 const CORTEX_BRIDGE = {
-  // ââ€€ââ€€ App Identity ââ€€ââ€€
+  // ?"??"? App Identity ?"??"?
   appId:       "thearcade",
   appName:     "The Arcade",
   domain:      "darkwavegames.io",
   category:    "Gaming",
   description: "Blockchain gaming hub",
 
-  // ââ€€ââ€€ Cortex Registration ââ€€ââ€€
+  // ?"??"? Cortex Registration ?"??"?
   cortexEndpoint: "https://lume-cortex.onrender.com",
   registryVersion: "1.0.0",
   ecosystemId: "trust-layer-42",
 
-  // ââ€€ââ€€ Heartbeat ââ€€ââ€€
+  // ?"??"? Heartbeat ?"??"?
   heartbeat: {
     interval: 30000,
     lastPing: null,
     status: "initializing"
   },
 
-  // ââ€€ââ€€ Methods ââ€€ââ€€
+  // ?"??"? Methods ?"??"?
   async register() {
     this.heartbeat.status = "registered";
     this.heartbeat.lastPing = new Date().toISOString();

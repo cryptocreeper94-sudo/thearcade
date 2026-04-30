@@ -65,10 +65,10 @@ interface AffiliateTier {
 }
 
 const TIER_ICONS: Record<string, string> = {
-  explorer: "ğŸŒ±",
-  builder: "ğŸš€",
+  explorer: "????",
+  builder: "????",
   architect: "â­",
-  oracle: "ğŸâ€˜â€˜",
+  oracle: "??''",
 };
 
 const TIER_COLORS: Record<string, string> = {
@@ -269,10 +269,10 @@ export function ReferralTracker() {
         
         <div className="flex gap-2 mt-3">
           <Button size="sm" className="flex-1 text-xs" variant="outline" onClick={shareToTwitter} data-testid="button-share-twitter">
-            ğ• Share
+            ???? Share
           </Button>
           <Button size="sm" className="flex-1 text-xs" variant="outline" onClick={shareToTelegram} data-testid="button-share-telegram">
-            ğŸâ€œ± Telegram
+            ??"? Telegram
           </Button>
         </div>
       </GlassCard>
@@ -319,7 +319,7 @@ export function ReferralTracker() {
             data-testid="button-how-it-works"
           >
             <div className="flex items-center gap-3">
-              <div className="text-2xl">ğŸâ€™°</div>
+              <div className="text-2xl">??'?</div>
               <div className="flex-1">
                 <h4 className="font-bold text-sm">How It Works</h4>
                 <p className="text-[10px] text-muted-foreground">
@@ -397,7 +397,7 @@ export function ReferralTracker() {
                 className={`flex items-center justify-between p-2 rounded-lg ${tier.slug === currentTierSlug ? 'bg-primary/20 border border-primary/30' : 'bg-white/5'}`}
               >
                 <div className="flex items-center gap-2">
-                  <span className="text-lg">{TIER_ICONS[tier.slug] || "ğŸŒ±"}</span>
+                  <span className="text-lg">{TIER_ICONS[tier.slug] || "????"}</span>
                   <div>
                     <span className="text-sm font-medium">{tier.name}</span>
                     <p className="text-[9px] text-muted-foreground">{tier.minConversions}+ conversions</p>

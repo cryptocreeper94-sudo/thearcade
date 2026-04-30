@@ -114,7 +114,7 @@ export const WalletConnectModal: React.FC<{ open: boolean; onClose: () => void }
     {
       id: 'metamask',
       name: 'MetaMask',
-      icon: 'ü¶ä',
+      icon: '????',
       chain: 'ethereum',
       hasExtension: hasMetaMaskExtension,
       deepLink: openMetaMaskDeepLink,
@@ -124,7 +124,7 @@ export const WalletConnectModal: React.FC<{ open: boolean; onClose: () => void }
     {
       id: 'phantom',
       name: 'Phantom',
-      icon: 'ü‚Äòª',
+      icon: '??'?',
       chain: 'solana',
       hasExtension: hasPhantomExtension,
       deepLink: openPhantomDeepLink,
@@ -134,7 +134,7 @@ export const WalletConnectModal: React.FC<{ open: boolean; onClose: () => void }
     {
       id: 'solflare',
       name: 'Solflare',
-      icon: 'ü‚Äù•',
+      icon: '??"?',
       chain: 'solana',
       hasExtension: hasSolflareExtension,
       deepLink: openSolflareDeepLink,
@@ -144,7 +144,7 @@ export const WalletConnectModal: React.FC<{ open: boolean; onClose: () => void }
     {
       id: 'coinbase',
       name: 'Coinbase Wallet',
-      icon: 'ü‚Äùµ',
+      icon: '??"?',
       chain: 'multi',
       hasExtension: hasCoinbaseExtension,
       deepLink: openCoinbaseDeepLink,
@@ -154,7 +154,7 @@ export const WalletConnectModal: React.FC<{ open: boolean; onClose: () => void }
     {
       id: 'trust',
       name: 'Trust Wallet',
-      icon: 'üõ°Ô∏è',
+      icon: '???????',
       chain: 'multi',
       hasExtension: hasTrustWalletExtension,
       deepLink: openTrustWalletDeepLink,

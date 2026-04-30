@@ -122,7 +122,7 @@ export function PasskeyManager() {
                       {pk.deviceType === "singleDevice" ? "This Device" : "Synced Passkey"}
                     </div>
                     <div className="text-xs text-muted-foreground">
-                      Added {formatDate(pk.createdAt)} • Last used {formatDate(pk.lastUsedAt)}
+                      Added {formatDate(pk.createdAt)} * Last used {formatDate(pk.lastUsedAt)}
                     </div>
                   </div>
                 </div>

@@ -63,7 +63,7 @@ const helpSections: HelpSection[] = [
     entries: [
       {
         title: "What is Signal?",
-        content: "Signal (SIG) is the native asset of the Trust Layer ” like ETH is to Ethereum. When you send Signal, you're transmitting verified intent from one participant to another, recorded permanently. Total supply: 1 billion SIG, fixed forever."
+        content: "Signal (SIG) is the native asset of the Trust Layer " like ETH is to Ethereum. When you send Signal, you're transmitting verified intent from one participant to another, recorded permanently. Total supply: 1 billion SIG, fixed forever."
       },
       {
         title: "Checking Your Balance",
@@ -164,7 +164,7 @@ const helpSections: HelpSection[] = [
     entries: [
       {
         title: "What is Chronicles?",
-        content: "Chronicles is a life simulation game set across three eras ” Modern, Medieval, and Wild West. Your choices shape your character's story, reputation, and legacy. Powered by AI for personalized experiences.",
+        content: "Chronicles is a life simulation game set across three eras " Modern, Medieval, and Wild West. Your choices shape your character's story, reputation, and legacy. Powered by AI for personalized experiences.",
         link: { label: "Play Chronicles", href: "/chronicles" }
       },
       {
@@ -218,7 +218,7 @@ const helpSections: HelpSection[] = [
     entries: [
       {
         title: "About Trust Layer Academy",
-        content: "Learn programming from the ground up through 8 course tracks ” from Programming Foundations to AI-Powered 3D Creation. Built around Lume, the world's first AI-native programming language.",
+        content: "Learn programming from the ground up through 8 course tracks " from Programming Foundations to AI-Powered 3D Creation. Built around Lume, the world's first AI-native programming language.",
         link: { label: "Visit Academy", href: "/academy" }
       },
       {
@@ -227,7 +227,7 @@ const helpSections: HelpSection[] = [
       },
       {
         title: "The Lume Language",
-        content: "Lume is an AI-native language where 'ask', 'think', and 'generate' are native keywords. It even accepts natural English as valid source code ” you can literally speak your code into existence."
+        content: "Lume is an AI-native language where 'ask', 'think', and 'generate' are native keywords. It even accepts natural English as valid source code " you can literally speak your code into existence."
       }
     ]
   },
@@ -238,7 +238,7 @@ const helpSections: HelpSection[] = [
     entries: [
       {
         title: "About TrustHome",
-        content: "TrustHome is a professional platform for real estate agents. Manage verified agent profiles, property listings, client relationships, and build trust scores ” all backed by blockchain verification.",
+        content: "TrustHome is a professional platform for real estate agents. Manage verified agent profiles, property listings, client relationships, and build trust scores " all backed by blockchain verification.",
         link: { label: "Open TrustHome", href: "/trusthome" }
       }
     ]
@@ -287,7 +287,7 @@ const contextMappings: ContextMapping[] = [
     routes: ["/", "/home", "/welcome"],
     sectionIds: ["getting-started", "signal-basics", "community"],
     quickTips: [
-      "New here? Start by creating an account ” it takes less than a minute.",
+      "New here? Start by creating an account " it takes less than a minute.",
       "Your wallet is created automatically when you sign up.",
       "Check the presale for the best Signal pricing before public launch."
     ]
@@ -313,7 +313,7 @@ const contextMappings: ContextMapping[] = [
     sectionIds: ["signal-basics", "getting-started", "community"],
     quickTips: [
       "The presale offers founder-rate pricing before public launch.",
-      "Signal has a fixed supply of 1 billion ” no additional minting ever."
+      "Signal has a fixed supply of 1 billion " no additional minting ever."
     ]
   },
   {
@@ -328,7 +328,7 @@ const contextMappings: ContextMapping[] = [
     routes: ["/swap", "/markets", "/trading", "/pools"],
     sectionIds: ["defi", "signal-basics", "staking"],
     quickTips: [
-      "Review swap rates before confirming ” prices update in real time.",
+      "Review swap rates before confirming " prices update in real time.",
       "Providing liquidity earns you a share of all trading fees in that pool."
     ]
   },
@@ -353,7 +353,7 @@ const contextMappings: ContextMapping[] = [
     sectionIds: ["guardian", "getting-started"],
     quickTips: [
       "Scan any address or contract to check its security score before interacting.",
-      "Look for the Guardian badge ” it means the project passed a full security audit."
+      "Look for the Guardian badge " it means the project passed a full security audit."
     ]
   },
   {
@@ -377,7 +377,7 @@ const contextMappings: ContextMapping[] = [
     sectionIds: ["trust-book", "getting-started"],
     quickTips: [
       "Tap the speaker icon while reading to activate AI narration.",
-      "Authors earn 70% royalties on every sale ” the highest in publishing."
+      "Authors earn 70% royalties on every sale " the highest in publishing."
     ]
   },
   {
@@ -392,7 +392,7 @@ const contextMappings: ContextMapping[] = [
     routes: ["/trusthome"],
     sectionIds: ["trusthome", "business", "guardian"],
     quickTips: [
-      "TrustHome is built for real estate professionals ” agents, brokers, and teams.",
+      "TrustHome is built for real estate professionals " agents, brokers, and teams.",
       "Your trust score builds over time based on verified transactions and reviews."
     ]
   },
@@ -708,7 +708,7 @@ export function ContextualHelp() {
                               </div>
                               {contextData.tips.map((tip, i) => (
                                 <p key={i} className="text-white/60 text-xs leading-relaxed mb-1 last:mb-0 pl-5">
-                                  • {tip}
+                                  * {tip}
                                 </p>
                               ))}
                             </div>

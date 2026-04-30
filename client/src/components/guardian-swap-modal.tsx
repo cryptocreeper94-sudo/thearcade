@@ -354,7 +354,7 @@ export function GuardianSwapModal({ isOpen, onClose, token }: GuardianSwapModalP
                     data-testid="input-swap-amount"
                   />
                   <div className="flex items-center gap-2 bg-white/10 rounded-lg px-3 py-2">
-                    <span className="text-lg">{isSolana ? 'ââ€”Ž' : 'Îž'}</span>
+                    <span className="text-lg">{isSolana ? '?--?' : 'Îž'}</span>
                     <span className="font-medium text-white">{chainConfig.nativeSymbol}</span>
                   </div>
                 </div>

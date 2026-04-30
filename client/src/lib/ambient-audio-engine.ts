@@ -50,7 +50,7 @@ type ActiveGenerator = {
 const MEDIEVAL_PROFILES: EraProfiles = {
   home: {
     name: "Your Dwelling",
-    emoji: "🏠",
+    emoji: "????",
     generators: [
       { id: "fire", type: "crackle", volume: 0.35, params: { rate: 8, tone: 800 } },
       { id: "wind_low", type: "noise", volume: 0.06, params: { filter: 200, q: 0.5 } },
@@ -59,7 +59,7 @@ const MEDIEVAL_PROFILES: EraProfiles = {
   },
   tavern: {
     name: "The Tavern",
-    emoji: "🍺",
+    emoji: "????",
     generators: [
       { id: "crowd", type: "noise", volume: 0.18, params: { filter: 1200, q: 1.5 } },
       { id: "fire", type: "crackle", volume: 0.15, params: { rate: 6, tone: 700 } },
@@ -69,7 +69,7 @@ const MEDIEVAL_PROFILES: EraProfiles = {
   },
   town: {
     name: "Town Square",
-    emoji: "🏘️",
+    emoji: "???????",
     generators: [
       { id: "crowd", type: "noise", volume: 0.1, params: { filter: 1500, q: 1 } },
       { id: "birds", type: "chirp", volume: 0.12, params: { freq: 3200, rate: 3, chirpLen: 0.15 } },
@@ -87,7 +87,7 @@ const MEDIEVAL_PROFILES: EraProfiles = {
   },
   forest: {
     name: "The Forest",
-    emoji: "🌲",
+    emoji: "????",
     generators: [
       { id: "birds", type: "chirp", volume: 0.15, params: { freq: 2800, rate: 4, chirpLen: 0.2 } },
       { id: "wind", type: "noise", volume: 0.1, params: { filter: 250, q: 0.4 } },
@@ -97,7 +97,7 @@ const MEDIEVAL_PROFILES: EraProfiles = {
   },
   marketplace: {
     name: "Marketplace",
-    emoji: "🏪",
+    emoji: "????",
     generators: [
       { id: "crowd", type: "noise", volume: 0.2, params: { filter: 1400, q: 1.2 } },
       { id: "hammering", type: "rhythm", volume: 0.08, params: { freq: 200, rate: 2, decay: 0.08 } },
@@ -106,7 +106,7 @@ const MEDIEVAL_PROFILES: EraProfiles = {
   },
   workplace: {
     name: "Your Workshop",
-    emoji: "�”�",
+    emoji: "??"?",
     generators: [
       { id: "hammering", type: "rhythm", volume: 0.12, params: { freq: 180, rate: 1.5, decay: 0.1 } },
       { id: "fire", type: "crackle", volume: 0.2, params: { rate: 10, tone: 600 } },
@@ -118,7 +118,7 @@ const MEDIEVAL_PROFILES: EraProfiles = {
 const WILDWEST_PROFILES: EraProfiles = {
   home: {
     name: "Your Cabin",
-    emoji: "🏚️",
+    emoji: "???????",
     generators: [
       { id: "fire", type: "crackle", volume: 0.3, params: { rate: 7, tone: 750 } },
       { id: "wind", type: "noise", volume: 0.15, params: { filter: 180, q: 0.4 } },
@@ -127,7 +127,7 @@ const WILDWEST_PROFILES: EraProfiles = {
   },
   tavern: {
     name: "The Saloon",
-    emoji: "🥃",
+    emoji: "????",
     generators: [
       { id: "crowd", type: "noise", volume: 0.2, params: { filter: 1100, q: 1.3 } },
       { id: "piano", type: "chime", volume: 0.1, params: { freq: 1200, rate: 3 } },
@@ -137,7 +137,7 @@ const WILDWEST_PROFILES: EraProfiles = {
   },
   town: {
     name: "Main Street",
-    emoji: "🏜️",
+    emoji: "???????",
     generators: [
       { id: "wind", type: "noise", volume: 0.2, params: { filter: 200, q: 0.5 } },
       { id: "dust", type: "noise", volume: 0.05, params: { filter: 4000, q: 1 } },
@@ -154,7 +154,7 @@ const WILDWEST_PROFILES: EraProfiles = {
   },
   forest: {
     name: "The Wilderness",
-    emoji: "🌵",
+    emoji: "????",
     generators: [
       { id: "wind", type: "noise", volume: 0.25, params: { filter: 220, q: 0.5 } },
       { id: "birds", type: "chirp", volume: 0.08, params: { freq: 2500, rate: 2, chirpLen: 0.25 } },
@@ -163,7 +163,7 @@ const WILDWEST_PROFILES: EraProfiles = {
   },
   marketplace: {
     name: "General Store",
-    emoji: "🏪",
+    emoji: "????",
     generators: [
       { id: "crowd", type: "noise", volume: 0.15, params: { filter: 1200, q: 1 } },
       { id: "wind", type: "noise", volume: 0.1, params: { filter: 250, q: 0.4 } },
@@ -172,7 +172,7 @@ const WILDWEST_PROFILES: EraProfiles = {
   },
   workplace: {
     name: "Your Post",
-    emoji: "⛏️",
+    emoji: "⛏???",
     generators: [
       { id: "hammering", type: "rhythm", volume: 0.1, params: { freq: 150, rate: 1, decay: 0.12 } },
       { id: "wind", type: "noise", volume: 0.12, params: { filter: 200, q: 0.4 } },
@@ -183,7 +183,7 @@ const WILDWEST_PROFILES: EraProfiles = {
 const MODERN_PROFILES: EraProfiles = {
   home: {
     name: "Your Apartment",
-    emoji: "🏢",
+    emoji: "????",
     generators: [
       { id: "city_hum", type: "rumble", volume: 0.06, params: { freq: 60, wobble: 0.5 } },
       { id: "rain", type: "noise", volume: 0.12, params: { filter: 6000, q: 0.5 } },
@@ -192,7 +192,7 @@ const MODERN_PROFILES: EraProfiles = {
   },
   tavern: {
     name: "The Bar",
-    emoji: "🍸",
+    emoji: "????",
     generators: [
       { id: "crowd", type: "noise", volume: 0.22, params: { filter: 1300, q: 1.5 } },
       { id: "music_bass", type: "rumble", volume: 0.15, params: { freq: 80, wobble: 2 } },
@@ -201,7 +201,7 @@ const MODERN_PROFILES: EraProfiles = {
   },
   town: {
     name: "Downtown",
-    emoji: "🌆",
+    emoji: "????",
     generators: [
       { id: "traffic", type: "noise", volume: 0.15, params: { filter: 400, q: 0.8 } },
       { id: "crowd", type: "noise", volume: 0.08, params: { filter: 1500, q: 1 } },
@@ -210,7 +210,7 @@ const MODERN_PROFILES: EraProfiles = {
   },
   workplace: {
     name: "The Office",
-    emoji: "�’�",
+    emoji: "??'?",
     generators: [
       { id: "typing", type: "rhythm", volume: 0.04, params: { freq: 3000, rate: 8, decay: 0.02 } },
       { id: "hvac", type: "noise", volume: 0.06, params: { filter: 300, q: 0.3 } },
@@ -219,7 +219,7 @@ const MODERN_PROFILES: EraProfiles = {
   },
   church: {
     name: "Community Center",
-    emoji: "🏛️",
+    emoji: "???????",
     generators: [
       { id: "echo", type: "noise", volume: 0.03, params: { filter: 350, q: 0.2 } },
       { id: "hum", type: "tone", volume: 0.02, params: { freq: 110, type: 1 } },
@@ -227,7 +227,7 @@ const MODERN_PROFILES: EraProfiles = {
   },
   marketplace: {
     name: "Shopping District",
-    emoji: "🛍️",
+    emoji: "???????",
     generators: [
       { id: "crowd", type: "noise", volume: 0.2, params: { filter: 1500, q: 1.2 } },
       { id: "city", type: "rumble", volume: 0.08, params: { freq: 50, wobble: 1 } },
@@ -236,7 +236,7 @@ const MODERN_PROFILES: EraProfiles = {
   },
   forest: {
     name: "The Park",
-    emoji: "🌳",
+    emoji: "????",
     generators: [
       { id: "birds", type: "chirp", volume: 0.18, params: { freq: 3000, rate: 3.5, chirpLen: 0.18 } },
       { id: "wind", type: "noise", volume: 0.08, params: { filter: 280, q: 0.4 } },
@@ -319,7 +319,7 @@ export class AmbientAudioEngine {
       currentLocation: this.currentLocation,
       currentEra: this.currentEra,
       locationName: profile?.name || "Unknown",
-      locationEmoji: profile?.emoji || "�”�",
+      locationEmoji: profile?.emoji || "??"?",
       layerCount: this.activeGenerators.size,
       isNight: this.isNight,
     });
@@ -640,7 +640,7 @@ export class AmbientAudioEngine {
       currentLocation: this.currentLocation,
       currentEra: this.currentEra,
       locationName: profile?.name || "Unknown",
-      locationEmoji: profile?.emoji || "�”�",
+      locationEmoji: profile?.emoji || "??"?",
       layerCount: this.activeGenerators.size,
       isNight: this.isNight,
     };

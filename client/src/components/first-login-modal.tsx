@@ -103,7 +103,7 @@ export function FirstLoginModal() {
                 </div>
                 <div>
                   <p className="text-white font-medium text-sm">Signal Presale Live</p>
-                  <p className="text-gray-400 text-xs">$0.001 per SIG • Up to 25% bonus</p>
+                  <p className="text-gray-400 text-xs">$0.001 per SIG * Up to 25% bonus</p>
                 </div>
               </div>
 

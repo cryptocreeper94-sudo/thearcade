@@ -58,8 +58,8 @@ type BridgeDirection = 'outbound' | 'inbound';
 
 const CHAIN_ICONS: Record<string, string> = {
   ethereum: 'Œû',
-  solana: '‚‚Äîé',
-  trustlayer: 'üåä',
+  solana: '?--?',
+  trustlayer: '????',
 };
 
 const formatAmount = (amount: string): string => {
@@ -237,7 +237,7 @@ export function BridgeInterface() {
                 className="flex items-center justify-between p-3 rounded-lg bg-slate-800/30"
               >
                 <div className="flex items-center gap-2">
-                  <span className="text-xl">{CHAIN_ICONS[chain.chain] || 'ü‚Äù‚Äî'}</span>
+                  <span className="text-xl">{CHAIN_ICONS[chain.chain] || '??"--'}</span>
                   <span className="font-medium capitalize">{chain.chain}</span>
                 </div>
                 <div className="flex items-center gap-2">
@@ -258,7 +258,7 @@ export function BridgeInterface() {
             ))}
             <div className="flex items-center justify-between p-3 rounded-lg bg-cyan-500/10 border border-cyan-500/20">
               <div className="flex items-center gap-2">
-                <span className="text-xl">üåä</span>
+                <span className="text-xl">????</span>
                 <span className="font-medium">Trust Layer</span>
               </div>
               <Badge variant="outline" className="text-cyan-400 border-cyan-500/30">
@@ -345,7 +345,7 @@ export function BridgeInterface() {
             <div className="flex items-center justify-center gap-4 mb-6">
               <div className="text-center">
                 <div className="w-16 h-16 rounded-full bg-cyan-500/20 border border-cyan-500/30 flex items-center justify-center text-3xl mb-2">
-                  {direction === 'outbound' ? 'üåä' : CHAIN_ICONS[targetChain]}
+                  {direction === 'outbound' ? '????' : CHAIN_ICONS[targetChain]}
                 </div>
                 <span className="text-sm font-medium">
                   {direction === 'outbound' ? 'Trust Layer' : targetChain === 'ethereum' ? 'Ethereum' : 'Solana'}
@@ -354,7 +354,7 @@ export function BridgeInterface() {
               <ArrowRightLeft className="w-6 h-6 text-gray-400" />
               <div className="text-center">
                 <div className="w-16 h-16 rounded-full bg-purple-500/20 border border-purple-500/30 flex items-center justify-center text-3xl mb-2">
-                  {direction === 'outbound' ? CHAIN_ICONS[targetChain] : 'üåä'}
+                  {direction === 'outbound' ? CHAIN_ICONS[targetChain] : '????'}
                 </div>
                 <span className="text-sm font-medium">
                   {direction === 'outbound' ? (targetChain === 'ethereum' ? 'Ethereum' : 'Solana') : 'Trust Layer'}
@@ -380,7 +380,7 @@ export function BridgeInterface() {
                     className="flex-1"
                     data-testid="btn-chain-solana"
                   >
-                    <span className="mr-2">‚‚Äîé</span> Solana Devnet
+                    <span className="mr-2">?--?</span> Solana Devnet
                   </Button>
                 </div>
               </div>

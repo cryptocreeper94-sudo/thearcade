@@ -174,7 +174,7 @@ export function PresaleBanner() {
                             {formatUSD(untilNextIncrease)} to price increase
                           </span>
                           <span className="text-[9px] text-cyan-400 font-medium">
-                            â†â€™ ${nextMilestone.price}/SIG
+                            ??' ${nextMilestone.price}/SIG
                           </span>
                         </div>
                         <div className="h-1.5 bg-white/5 rounded-full overflow-hidden">
@@ -207,8 +207,8 @@ export function PresaleBanner() {
                   {nextMilestone && (
                     <div className="mt-1">
                       <div className="flex items-center justify-between mb-0.5">
-                        <span className="text-[9px] text-white/30">{formatUSD(untilNextIncrease)} to price â†â€˜</span>
-                        <span className="text-[9px] text-cyan-400">â†â€™ ${nextMilestone.price}</span>
+                        <span className="text-[9px] text-white/30">{formatUSD(untilNextIncrease)} to price ??'</span>
+                        <span className="text-[9px] text-cyan-400">??' ${nextMilestone.price}</span>
                       </div>
                       <div className="h-1 bg-white/5 rounded-full overflow-hidden">
                         <div
@@ -297,7 +297,7 @@ export function PresaleBanner() {
                         </div>
                         <div className="flex items-center justify-between mb-1">
                           <span className="text-xs text-white/70">{formatUSD(untilNextIncrease)} remaining</span>
-                          <span className="text-xs text-cyan-400 font-semibold">â†â€™ ${nextMilestone.price}/SIG</span>
+                          <span className="text-xs text-cyan-400 font-semibold">??' ${nextMilestone.price}/SIG</span>
                         </div>
                         <div className="h-2 bg-white/5 rounded-full overflow-hidden">
                           <div

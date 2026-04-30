@@ -1,14 +1,14 @@
 import { createPortal } from "react-dom";
 
 const ARCADE_GAMES = [
-  { name: "Minesweeper", icon: "�’�", desc: "Classic puzzle game" },
-  { name: "Solitaire", icon: "🃏", desc: "Card game classic" },
-  { name: "Spades", icon: "♠️", desc: "Trick-taking card game" },
-  { name: "Crash", icon: "�“�", desc: "Provably fair betting" },
-  { name: "Slots", icon: "🎰", desc: "Spin to win" },
-  { name: "Coin Flip", icon: "🪙", desc: "50/50 chance" },
-  { name: "Dice", icon: "🎲", desc: "Roll the dice" },
-  { name: "Blackjack", icon: "🂡", desc: "Beat the dealer" },
+  { name: "Minesweeper", icon: "??'?", desc: "Classic puzzle game" },
+  { name: "Solitaire", icon: "????", desc: "Card game classic" },
+  { name: "Spades", icon: "♠???", desc: "Trick-taking card game" },
+  { name: "Crash", icon: "??"?", desc: "Provably fair betting" },
+  { name: "Slots", icon: "????", desc: "Spin to win" },
+  { name: "Coin Flip", icon: "????", desc: "50/50 chance" },
+  { name: "Dice", icon: "????", desc: "Roll the dice" },
+  { name: "Blackjack", icon: "????", desc: "Beat the dealer" },
 ];
 
 export function GamesComingSoonModal({ onClose }: { onClose: () => void }) {
@@ -46,7 +46,7 @@ export function GamesComingSoonModal({ onClose }: { onClose: () => void }) {
         }}
       >
         <div style={{ textAlign: 'center', marginBottom: '20px' }}>
-          <div style={{ fontSize: '48px', marginBottom: '12px' }}>🎮</div>
+          <div style={{ fontSize: '48px', marginBottom: '12px' }}>????</div>
           <h2 style={{ 
             fontSize: '24px', 
             fontWeight: 700, 
@@ -99,7 +99,7 @@ export function GamesComingSoonModal({ onClose }: { onClose: () => void }) {
             Play with SIG tokens or Shells
           </p>
           <p style={{ fontSize: '11px', color: 'rgba(255,255,255,0.5)' }}>
-            Provably fair • Instant payouts • Low house edge
+            Provably fair * Instant payouts * Low house edge
           </p>
         </div>
 

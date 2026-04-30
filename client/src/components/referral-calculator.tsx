@@ -195,7 +195,7 @@ export function ReferralCalculator() {
                   />
                 </div>
                 <div className="text-right pt-5">
-                  <span className="text-xs text-muted-foreground">�— 1,000 Shells</span>
+                  <span className="text-xs text-muted-foreground">��?" 1,000 Shells</span>
                 </div>
               </div>
 
@@ -335,11 +335,11 @@ export function ReferralCalculator() {
             <div>
               <div className="font-semibold text-sm mb-1">How It Works</div>
               <div className="text-xs text-muted-foreground space-y-1">
-                <p>• Get your referral link from your dashboard</p>
-                <p>• Share it anywhere - Zealy, social media, friends, anywhere</p>
-                <p>• Earn 1,000 Shells for every signup using your link</p>
-                <p>• Earn bonus Shells when they make a purchase (min $5)</p>
-                <p>• No cap - earn as much as you can bring in</p>
+                <p>* Get your referral link from your dashboard</p>
+                <p>* Share it anywhere - Zealy, social media, friends, anywhere</p>
+                <p>* Earn 1,000 Shells for every signup using your link</p>
+                <p>* Earn bonus Shells when they make a purchase (min $5)</p>
+                <p>* No cap - earn as much as you can bring in</p>
               </div>
             </div>
           </div>

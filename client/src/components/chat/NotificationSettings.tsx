@@ -31,7 +31,7 @@ export const NotificationSettings: React.FC<{ onSave: (cfg: any) => Promise<void
       <label className="flex items-center gap-2 mt-2"><input type="checkbox" checked={desktop} onChange={() => setDesktop(!desktop)} data-testid="notif-desktop" /> <span className="text-slate-300">Desktop notifications</span></label>
       <label className="flex items-center gap-2"><input type="checkbox" checked={sound} onChange={() => setSound(!sound)} data-testid="notif-sound" /> <span className="text-slate-300">Sound</span></label>
       <div className="flex justify-end mt-3">
-        <button onClick={save} disabled={saving} className="py-2 px-3 rounded bg-cyan-500 text-black" data-testid="notif-save">{saving ? 'Saving…' : 'Save'}</button>
+        <button onClick={save} disabled={saving} className="py-2 px-3 rounded bg-cyan-500 text-black" data-testid="notif-save">{saving ? 'Saving...' : 'Save'}</button>
       </div>
     </div>
   );

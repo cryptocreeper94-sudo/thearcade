@@ -163,7 +163,7 @@ export function Footer() {
               <span className="relative inline-flex rounded-full h-2 w-2 bg-cyan-500"></span>
             </span>
             <span>
-              Powered by <a href="https://lume-lang.com" target="_blank" rel="noopener noreferrer" className="text-cyan-400 font-semibold hover:text-cyan-300 transition-colors">Lume</a> ” the AI-native programming language
+              Powered by <a href="https://lume-lang.com" target="_blank" rel="noopener noreferrer" className="text-cyan-400 font-semibold hover:text-cyan-300 transition-colors">Lume</a> " the AI-native programming language
             </span>
             <span className="text-white/20">·</span>
             <a href="https://dwsc.io" target="_blank" rel="noopener noreferrer" className="text-cyan-400/80 hover:text-cyan-300 transition-colors font-medium">DWSC.io</a>
@@ -209,23 +209,23 @@ export function Footer() {
             <a href="https://darkwavestudios.io" target="_blank" rel="noopener noreferrer" className="text-white/70 hover:text-cyan-400 transition-colors">
               &copy; 2026 DarkWave Studios LLC
             </a>
-            <span className="text-white/30">•</span>
+            <span className="text-white/30">*</span>
             <Link href="/terms" className="hover:text-cyan-400 transition-colors" data-testid="link-terms">
               Terms
             </Link>
-            <span className="text-white/30">•</span>
+            <span className="text-white/30">*</span>
             <Link href="/privacy" className="hover:text-cyan-400 transition-colors" data-testid="link-privacy">
               Privacy
             </Link>
-            <span className="text-white/30">•</span>
+            <span className="text-white/30">*</span>
             <Link href="/explore" className="hover:text-cyan-400 transition-colors" data-testid="link-explore">
               Explore
             </Link>
-            <span className="text-white/30">•</span>
+            <span className="text-white/30">*</span>
             <a href="https://dwsc.io" target="_blank" rel="noopener noreferrer" className="text-cyan-400/70 hover:text-cyan-400 transition-colors">
               DWSC
             </a>
-            <span className="text-white/30">•</span>
+            <span className="text-white/30">*</span>
             <button onClick={openModal} className="text-white/30 hover:text-white/50 transition-colors" data-testid="link-team">
               Team
             </button>

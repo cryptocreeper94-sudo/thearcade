@@ -109,10 +109,10 @@ export function HeaderTools() {
 function WatchlistItem({ item }: { item: FavoriteItem }) {
   const getIcon = () => {
     switch (item.type) {
-      case "token": return "ğŸª™";
-      case "nft": return "ğŸâ€“¼ï¸";
-      case "address": return "ğŸâ€˜›";
-      case "app": return "ğŸâ€œ±";
+      case "token": return "????";
+      case "nft": return "??-????";
+      case "address": return "??'?";
+      case "app": return "??"?";
       default: return "â­";
     }
   };

@@ -40,7 +40,7 @@ export const LiquidityPanel: React.FC = () => {
           <div>LP balance: <span className="text-slate-200">0</span></div>
         </div>
         <button data-testid="add-liquidity" onClick={onAdd} disabled={adding} className="py-3 rounded-md bg-gradient-to-r from-pink-500 to-purple-500 text-black font-semibold">
-          {adding ? 'Adding…' : 'Add Liquidity'}
+          {adding ? 'Adding...' : 'Add Liquidity'}
         </button>
       </div>
     </div>

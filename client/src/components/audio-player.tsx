@@ -21,7 +21,7 @@ export function AmbientAudioController({ era, location, isNight = false }: Ambie
     currentLocation: "",
     currentEra: "",
     locationName: "Unknown",
-    locationEmoji: "ü‚Äùá",
+    locationEmoji: "??"?",
     layerCount: 0,
     isNight: false,
   });

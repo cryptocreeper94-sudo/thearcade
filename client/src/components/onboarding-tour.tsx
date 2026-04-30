@@ -24,7 +24,7 @@ const steps: Step[] = [
   },
   {
     title: "Build in DWSC Studio",
-    description: "Our cloud IDE features an AI Agent Mode (Ctrl+Shift+K) that builds across your entire project autonomously. Connect GitHub, deploy to Vercel, and stamp your code on the blockchain with TrustHub ” all from one workspace.",
+    description: "Our cloud IDE features an AI Agent Mode (Ctrl+Shift+K) that builds across your entire project autonomously. Connect GitHub, deploy to Vercel, and stamp your code on the blockchain with TrustHub " all from one workspace.",
   },
   {
     title: "Integrations & Live Preview",

@@ -289,7 +289,7 @@ export function GlobalSearch() {
                               index === selectedIndex ? "text-white" : "text-white/80"
                             }`}>{result.title}</div>
                             <div className="text-xs text-muted-foreground truncate">
-                              {result.category && <span className="text-cyan-400/60">{result.category} • </span>}
+                              {result.category && <span className="text-cyan-400/60">{result.category} * </span>}
                               {result.description}
                             </div>
                           </div>

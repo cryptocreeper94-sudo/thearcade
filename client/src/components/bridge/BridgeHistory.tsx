@@ -9,8 +9,8 @@ export const BridgeHistory: React.FC<{ items?: BridgeTransaction[] }> = ({ items
         {items.length === 0 ? <div className="text-slate-400 text-sm">No bridge activity</div> : items.map((tx) => (
           <div key={tx.id} className="flex items-center justify-between p-2 rounded-md bg-slate-900/30">
             <div>
-              <div className="text-sm text-white">{tx.fromChain} �’ {tx.toChain}</div>
-              <div className="text-xs text-slate-400">{tx.amount} • {new Date(tx.createdAt).toLocaleString()}</div>
+              <div className="text-sm text-white">{tx.fromChain} ??' {tx.toChain}</div>
+              <div className="text-xs text-slate-400">{tx.amount} * {new Date(tx.createdAt).toLocaleString()}</div>
             </div>
             <div className="flex flex-col items-end">
               <div className={`text-xs px-2 py-1 rounded ${tx.status === 'completed' ? 'bg-green-600 text-black' : tx.status === 'failed' ? 'bg-red-600' : 'bg-teal-500 text-black'}`}>{tx.status}</div>

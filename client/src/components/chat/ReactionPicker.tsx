@@ -1,6 +1,6 @@
 import React from 'react';
 
-const COMMON = ['ğŸâ€˜', 'â¤ï¸', 'ğŸ˜‚', 'ğŸ˜®', 'ğŸ˜¢', 'ğŸâ€¥', 'ğŸ‰', 'ğŸâ€˜'];
+const COMMON = ['??'?', 'â¤???', '????', '????', '????', '??"?', '????', '??'?'];
 
 export const ReactionPicker: React.FC<{ onSelect: (emoji: string) => void }> = ({ onSelect }) => {
   return (

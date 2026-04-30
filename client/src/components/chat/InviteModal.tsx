@@ -24,7 +24,7 @@ export const InviteModal: React.FC<{ open: boolean; onClose: () => void; onGener
         <input type="datetime-local" value={expiresAt} onChange={(e) => setExpiresAt(e.target.value)} className="p-2 rounded bg-slate-900/40 text-white mb-2" data-testid="invite-expires" />
         <input type="number" value={maxUses ?? ''} onChange={(e) => setMaxUses(Number(e.target.value) || undefined)} placeholder="Max uses (optional)" className="p-2 rounded bg-slate-900/40 text-white mb-2" data-testid="invite-maxuses" />
         <div className="flex justify-end gap-2">
-          <button onClick={gen} className="py-2 px-3 rounded bg-cyan-500 text-black" data-testid="invite-gen">{loading ? 'Generating…' : 'Generate'}</button>
+          <button onClick={gen} className="py-2 px-3 rounded bg-cyan-500 text-black" data-testid="invite-gen">{loading ? 'Generating...' : 'Generate'}</button>
         </div>
 
         <div className="mt-3">

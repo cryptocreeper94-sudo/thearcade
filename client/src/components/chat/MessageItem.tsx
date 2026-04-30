@@ -12,7 +12,7 @@ export const MessageItem: React.FC<{ message: Message }> = ({ message }) => {
         </div>
         <div className="text-sm text-slate-200">{message.content}</div>
         <div className="flex items-center gap-2 mt-2 text-xs text-slate-400">
-          <button className="p-1" data-testid={`react-${message.id}`}>ğŸâ€˜</button>
+          <button className="p-1" data-testid={`react-${message.id}`}>??'?</button>
           <button className="p-1" data-testid={`reply-${message.id}`}>Reply</button>
           <div className="ml-2">{message.reactions?.map(r => `${r.emoji} ${r.count}`).join(' ')}</div>
         </div>

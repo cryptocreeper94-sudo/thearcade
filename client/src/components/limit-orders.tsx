@@ -27,11 +27,11 @@ interface LimitOrder {
 }
 
 const TOKENS: TokenInfo[] = [
-  { symbol: "SIG", name: "Signal", icon: "ðŸŒŠ" },
+  { symbol: "SIG", name: "Signal", icon: "????" },
   { symbol: "wETH", name: "Wrapped Ethereum", icon: "âŸ " },
-  { symbol: "wSOL", name: "Wrapped Solana", icon: "ââ€”Ž" },
-  { symbol: "USDC", name: "USD Coin", icon: "ðŸâ€™µ" },
-  { symbol: "USDT", name: "Tether", icon: "ðŸâ€™²" },
+  { symbol: "wSOL", name: "Wrapped Solana", icon: "?--?" },
+  { symbol: "USDC", name: "USD Coin", icon: "??'?" },
+  { symbol: "USDT", name: "Tether", icon: "??'?" },
 ];
 
 
@@ -220,7 +220,7 @@ export function LimitOrdersList() {
                   <div className="flex items-center gap-2">
                     <span className="text-lg">{order.tokenIn.icon}</span>
                     <span className="font-bold text-sm">{order.amountIn} {order.tokenIn.symbol}</span>
-                    <span className="text-muted-foreground">â†â€™</span>
+                    <span className="text-muted-foreground">??'</span>
                     <span className="text-lg">{order.tokenOut.icon}</span>
                     <span className="font-bold text-sm">{order.tokenOut.symbol}</span>
                   </div>

@@ -20,7 +20,7 @@ interface BuyCryptoModalProps {
 
 const SUPPORTED_CRYPTOS = [
   { id: "eth", name: "Ethereum", symbol: "ETH", icon: "Îž", network: "ethereum" },
-  { id: "sol", name: "Solana", symbol: "SOL", icon: "ââ€”Ž", network: "solana" },
+  { id: "sol", name: "Solana", symbol: "SOL", icon: "?--?", network: "solana" },
   { id: "usdc", name: "USD Coin", symbol: "USDC", icon: "$", network: "ethereum" },
   { id: "matic", name: "Polygon", symbol: "MATIC", icon: "â¬¡", network: "polygon" },
 ];

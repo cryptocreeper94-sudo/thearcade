@@ -105,7 +105,7 @@ export const SwapInterface: React.FC = () => {
             />
             <span className="text-slate-500">%</span>
           </div>
-          <div>Price impact: <span className="text-pink-400">{quote ? `${quote.priceImpactPct}%` : '”'}</span></div>
+          <div>Price impact: <span className="text-pink-400">{quote ? `${quote.priceImpactPct}%` : '"'}</span></div>
         </div>
 
         <button
@@ -114,7 +114,7 @@ export const SwapInterface: React.FC = () => {
           disabled={loadingSwap || !quote}
           className="w-full py-3 rounded-md bg-gradient-to-r from-cyan-500 to-purple-500 text-black font-semibold disabled:opacity-60"
         >
-          {loadingSwap ? 'Swapping…' : 'Swap'}
+          {loadingSwap ? 'Swapping...' : 'Swap'}
         </button>
       </div>
     </div>

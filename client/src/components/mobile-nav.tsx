@@ -19,7 +19,7 @@ const navCategories = [
     icon: Home,
     items: [
       { href: "/", label: "Home", icon: Home },
-      { href: "/launch", label: "Launch Countdown", icon: Rocket, badge: "ü‚Äù•" },
+      { href: "/launch", label: "Launch Countdown", icon: Rocket, badge: "??"?" },
       { href: "/explore", label: "Explore Everything", icon: Compass, badge: "Hub" },
       { href: "/note", label: "Our Story", icon: Heart },
       { href: "/ecosystem", label: "Ecosystem", icon: Compass },
@@ -196,7 +196,7 @@ const navCategories = [
       { href: "/api-docs", label: "API Docs", icon: FileText },
       { href: "/webhooks", label: "Webhooks API", icon: Webhook },
       { href: "/doc-hub", label: "Documentation Hub", icon: FileText },
-      { href: "/launch", label: "Launch Roadmap", icon: Rocket, badge: "ü‚Äù•" },
+      { href: "/launch", label: "Launch Roadmap", icon: Rocket, badge: "??"?" },
       { href: "/roadmap", label: "Ecosystem Roadmap", icon: Star },
       { href: "/coming-features", label: "Coming Features", icon: Rocket },
       { href: "/feedback", label: "Feedback", icon: MessageCircle },
@@ -371,14 +371,14 @@ function NavCategory({ category, location, onClose, onShowComingSoon }: {
 }
 
 const ARCADE_GAMES = [
-  { name: "Minesweeper", icon: "ü‚Äô£", desc: "Classic puzzle game" },
-  { name: "Solitaire", icon: "üÉè", desc: "Card game classic" },
-  { name: "Spades", icon: "‚ô†Ô∏è", desc: "Trick-taking card game" },
-  { name: "Crash", icon: "ü‚Äúà", desc: "Provably fair betting" },
-  { name: "Slots", icon: "üé∞", desc: "Spin to win" },
-  { name: "Coin Flip", icon: "ü™ô", desc: "50/50 chance" },
-  { name: "Dice", icon: "üé≤", desc: "Roll the dice" },
-  { name: "Blackjack", icon: "üÇ°", desc: "Beat the dealer" },
+  { name: "Minesweeper", icon: "??'?", desc: "Classic puzzle game" },
+  { name: "Solitaire", icon: "????", desc: "Card game classic" },
+  { name: "Spades", icon: "‚ô†???", desc: "Trick-taking card game" },
+  { name: "Crash", icon: "??"?", desc: "Provably fair betting" },
+  { name: "Slots", icon: "????", desc: "Spin to win" },
+  { name: "Coin Flip", icon: "????", desc: "50/50 chance" },
+  { name: "Dice", icon: "????", desc: "Roll the dice" },
+  { name: "Blackjack", icon: "????", desc: "Beat the dealer" },
 ];
 
 function GamesComingSoonModal({ onClose }: { onClose: () => void }) {
@@ -416,7 +416,7 @@ function GamesComingSoonModal({ onClose }: { onClose: () => void }) {
         }}
       >
         <div style={{ textAlign: 'center', marginBottom: '20px' }}>
-          <div style={{ fontSize: '48px', marginBottom: '12px' }}>üéÆ</div>
+          <div style={{ fontSize: '48px', marginBottom: '12px' }}>????</div>
           <h2 style={{ 
             fontSize: '24px', 
             fontWeight: 700, 
@@ -469,7 +469,7 @@ function GamesComingSoonModal({ onClose }: { onClose: () => void }) {
             Play with SIG tokens or Shells
           </p>
           <p style={{ fontSize: '11px', color: 'rgba(255,255,255,0.5)' }}>
-            Provably fair ‚Ä¢ Instant payouts ‚Ä¢ Low house edge
+            Provably fair * Instant payouts * Low house edge
           </p>
         </div>
 
@@ -770,9 +770,9 @@ function MenuPanel({ onClose, onShowLogin }: { onClose: () => void; onShowLogin:
             <div style={{ flex: 1, position: 'relative' as const, zIndex: 1 }}>
               <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '4px' }}>
                 <span style={{ fontWeight: 700, fontSize: '15px', color: '#ffffff' }}>August 23rd Launch</span>
-                <Badge className="text-[9px] px-1.5 py-0 bg-red-500/30 text-red-300 border-red-500/30 animate-pulse">ü‚Äù•</Badge>
+                <Badge className="text-[9px] px-1.5 py-0 bg-red-500/30 text-red-300 border-red-500/30 animate-pulse">??"?</Badge>
               </div>
-              <span style={{ fontSize: '12px', color: 'rgba(255,255,255,0.7)' }}>Signal goes live ‚Äù view roadmap</span>
+              <span style={{ fontSize: '12px', color: 'rgba(255,255,255,0.7)' }}>Signal goes live " view roadmap</span>
             </div>
             <ArrowRight style={{ width: '18px', height: '18px', color: 'rgba(239,68,68,0.8)' }} />
           </div>
@@ -881,7 +881,7 @@ function MenuPanel({ onClose, onShowLogin }: { onClose: () => void; onShowLogin:
           >
             <Rocket style={{ width: '18px', height: '18px', flexShrink: 0 }} />
             <span style={{ flex: 1, textAlign: 'left' }}>
-              {installPrompt ? 'Install App' : 'Install: Menu ‚Ü‚Äô Add to Home Screen'}
+              {installPrompt ? 'Install App' : 'Install: Menu ??' Add to Home Screen'}
             </span>
           </button>
         )}
