@@ -486,19 +486,19 @@ export function SimpleLoginModal({ isOpen, onClose, onSuccess, ssoApp: ssoAppPro
                 <div className="p-3 bg-slate-800/50 rounded-lg border border-white/10 text-xs space-y-1">
                   <p className="text-muted-foreground font-medium mb-2">Password must have:</p>
                   <p className={validatePassword(password).minLength ? "text-green-400" : "text-muted-foreground"}>
-                    {validatePassword(password).minLength ? "âœ“" : "â—‹"} At least 8 characters
+                    {validatePassword(password).minLength ? "âœâ€œ" : "ââ€”‹"} At least 8 characters
                   </p>
                   <p className={validatePassword(password).hasUpper ? "text-green-400" : "text-muted-foreground"}>
-                    {validatePassword(password).hasUpper ? "âœ“" : "â—‹"} One uppercase letter (A-Z)
+                    {validatePassword(password).hasUpper ? "âœâ€œ" : "ââ€”‹"} One uppercase letter (A-Z)
                   </p>
                   <p className={validatePassword(password).hasLower ? "text-green-400" : "text-muted-foreground"}>
-                    {validatePassword(password).hasLower ? "âœ“" : "â—‹"} One lowercase letter (a-z)
+                    {validatePassword(password).hasLower ? "âœâ€œ" : "ââ€”‹"} One lowercase letter (a-z)
                   </p>
                   <p className={validatePassword(password).hasNumber ? "text-green-400" : "text-muted-foreground"}>
-                    {validatePassword(password).hasNumber ? "âœ“" : "â—‹"} One number (0-9)
+                    {validatePassword(password).hasNumber ? "âœâ€œ" : "ââ€”‹"} One number (0-9)
                   </p>
                   <p className={validatePassword(password).hasSpecial ? "text-green-400" : "text-muted-foreground"}>
-                    {validatePassword(password).hasSpecial ? "âœ“" : "â—‹"} One special character (!@#$%^&*)
+                    {validatePassword(password).hasSpecial ? "âœâ€œ" : "ââ€”‹"} One special character (!@#$%^&*)
                   </p>
                 </div>
               )}
@@ -593,7 +593,7 @@ export function SimpleLoginModal({ isOpen, onClose, onSuccess, ssoApp: ssoAppPro
                 <Globe className="w-4 h-4 text-cyan-400 mt-0.5 flex-shrink-0" />
                 <p className="text-xs text-slate-400 leading-relaxed">
                   Signed up through <span className="text-cyan-400/80">GarageBot</span> or another Trust Layer ecosystem app?
-                  Use the same email and password here â€” one account works across the entire ecosystem.
+                  Use the same email and password here â€â€ one account works across the entire ecosystem.
                 </p>
               </div>
             </div>

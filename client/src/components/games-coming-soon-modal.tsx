@@ -1,10 +1,10 @@
 import { createPortal } from "react-dom";
 
 const ARCADE_GAMES = [
-  { name: "Minesweeper", icon: "💣", desc: "Classic puzzle game" },
+  { name: "Minesweeper", icon: "�’�", desc: "Classic puzzle game" },
   { name: "Solitaire", icon: "🃏", desc: "Card game classic" },
   { name: "Spades", icon: "♠️", desc: "Trick-taking card game" },
-  { name: "Crash", icon: "📈", desc: "Provably fair betting" },
+  { name: "Crash", icon: "�“�", desc: "Provably fair betting" },
   { name: "Slots", icon: "🎰", desc: "Spin to win" },
   { name: "Coin Flip", icon: "🪙", desc: "50/50 chance" },
   { name: "Dice", icon: "🎲", desc: "Roll the dice" },

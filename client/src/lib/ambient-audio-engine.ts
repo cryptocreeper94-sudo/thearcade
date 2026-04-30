@@ -106,7 +106,7 @@ const MEDIEVAL_PROFILES: EraProfiles = {
   },
   workplace: {
     name: "Your Workshop",
-    emoji: "ğŸ”¨",
+    emoji: "ğŸâ€¨",
     generators: [
       { id: "hammering", type: "rhythm", volume: 0.12, params: { freq: 180, rate: 1.5, decay: 0.1 } },
       { id: "fire", type: "crackle", volume: 0.2, params: { rate: 10, tone: 600 } },
@@ -210,7 +210,7 @@ const MODERN_PROFILES: EraProfiles = {
   },
   workplace: {
     name: "The Office",
-    emoji: "ğŸ’»",
+    emoji: "ğŸâ€™»",
     generators: [
       { id: "typing", type: "rhythm", volume: 0.04, params: { freq: 3000, rate: 8, decay: 0.02 } },
       { id: "hvac", type: "noise", volume: 0.06, params: { filter: 300, q: 0.3 } },
@@ -319,7 +319,7 @@ export class AmbientAudioEngine {
       currentLocation: this.currentLocation,
       currentEra: this.currentEra,
       locationName: profile?.name || "Unknown",
-      locationEmoji: profile?.emoji || "ğŸ”‡",
+      locationEmoji: profile?.emoji || "ğŸâ€‡",
       layerCount: this.activeGenerators.size,
       isNight: this.isNight,
     });
@@ -640,7 +640,7 @@ export class AmbientAudioEngine {
       currentLocation: this.currentLocation,
       currentEra: this.currentEra,
       locationName: profile?.name || "Unknown",
-      locationEmoji: profile?.emoji || "ğŸ”‡",
+      locationEmoji: profile?.emoji || "ğŸâ€‡",
       layerCount: this.activeGenerators.size,
       isNight: this.isNight,
     };

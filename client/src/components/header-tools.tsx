@@ -110,9 +110,9 @@ function WatchlistItem({ item }: { item: FavoriteItem }) {
   const getIcon = () => {
     switch (item.type) {
       case "token": return "ğŸª™";
-      case "nft": return "ğŸ–¼ï¸";
-      case "address": return "ğŸ‘›";
-      case "app": return "ğŸ“±";
+      case "nft": return "ğŸâ€“¼ï¸";
+      case "address": return "ğŸâ€˜›";
+      case "app": return "ğŸâ€œ±";
       default: return "â­";
     }
   };

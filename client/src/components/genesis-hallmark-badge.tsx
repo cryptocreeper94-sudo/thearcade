@@ -146,7 +146,7 @@ export function GenesisHallmarkBadge() {
                             <span className="font-mono text-xs truncate max-w-[200px]">
                               {genesis?.hallmark?.dataHash
                                 ? `${genesis.hallmark.dataHash.slice(0, 12)}...${genesis.hallmark.dataHash.slice(-8)}`
-                                : "—"}
+                                : "�”"}
                             </span>
                             {copied ? <Check className="w-3 h-3" /> : <Copy className="w-3 h-3" />}
                           </button>
@@ -156,13 +156,13 @@ export function GenesisHallmarkBadge() {
                           <span className="font-mono text-xs text-white/70 truncate max-w-[200px]">
                             {genesis?.hallmark?.txHash
                               ? `${genesis.hallmark.txHash.slice(0, 12)}...${genesis.hallmark.txHash.slice(-8)}`
-                              : "—"}
+                              : "�”"}
                           </span>
                         </div>
                         <div className="flex items-center justify-between">
                           <span className="text-white/40 text-xs">Block Height</span>
                           <span className="font-mono text-xs text-white/70">
-                            {genesis?.hallmark?.blockHeight || "—"}
+                            {genesis?.hallmark?.blockHeight || "�”"}
                           </span>
                         </div>
                       </div>
@@ -216,7 +216,7 @@ export function GenesisHallmarkBadge() {
                   <p className="text-center text-white/30 text-[10px] mt-4">
                     Created {genesis?.hallmark?.createdAt
                       ? new Date(genesis.hallmark.createdAt).toLocaleDateString()
-                      : "—"}
+                      : "�”"}
                   </p>
                 </div>
               </div>

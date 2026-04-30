@@ -1,6 +1,6 @@
 import React from 'react';
 
-const COMMON = ['👍', '❤️', '😂', '😮', '😢', '🔥', '🎉', '👏'];
+const COMMON = ['�‘�', '❤️', '😂', '😮', '😢', '�”�', '🎉', '�‘�'];
 
 export const ReactionPicker: React.FC<{ onSelect: (emoji: string) => void }> = ({ onSelect }) => {
   return (

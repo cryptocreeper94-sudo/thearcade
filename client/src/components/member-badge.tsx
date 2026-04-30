@@ -115,13 +115,13 @@ export function MemberBadge({ userId }: { userId?: string }) {
   <text x="24" y="40" font-family="system-ui, sans-serif" font-size="18" font-weight="bold" fill="#22d3ee">Trust Layer</text>
   <text x="24" y="70" font-family="system-ui, sans-serif" font-size="12" fill="#94a3b8">VERIFIED MEMBER</text>
   <text x="24" y="105" font-family="system-ui, sans-serif" font-size="32" font-weight="bold" fill="white">#${memberNumber}</text>
-  ${isEarlyAdopter ? '<text x="24" y="130" font-family="system-ui, sans-serif" font-size="11" fill="#fbbf24">★ Early Adopter</text>' : ''}
+  ${isEarlyAdopter ? '<text x="24" y="130" font-family="system-ui, sans-serif" font-size="11" fill="#fbbf24">�… Early Adopter</text>' : ''}
   <text x="24" y="165" font-family="monospace" font-size="10" fill="#94a3b8">Trust Hash</text>
   <text x="24" y="182" font-family="monospace" font-size="12" fill="#22d3ee">${trustHash}</text>
   <text x="24" y="210" font-family="system-ui, sans-serif" font-size="10" fill="#64748b">Signal Balance: ${(tokenBalance?.totalTokens || 0).toLocaleString()} SIG</text>
   <text x="24" y="230" font-family="system-ui, sans-serif" font-size="9" fill="#475569">Generated: ${new Date().toLocaleDateString()}</text>
   <circle cx="360" cy="125" r="30" fill="none" stroke="url(#accent)" stroke-width="2"/>
-  <text x="360" y="130" font-family="system-ui, sans-serif" font-size="10" fill="#22d3ee" text-anchor="middle">✓</text>
+  <text x="360" y="130" font-family="system-ui, sans-serif" font-size="10" fill="#22d3ee" text-anchor="middle">�“</text>
 </svg>`;
 
     const blob = new Blob([svgContent], { type: 'image/svg+xml' });

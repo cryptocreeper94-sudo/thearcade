@@ -68,7 +68,7 @@ const TIER_ICONS: Record<string, string> = {
   explorer: "🌱",
   builder: "🚀",
   architect: "⭐",
-  oracle: "👑",
+  oracle: "�‘‘",
 };
 
 const TIER_COLORS: Record<string, string> = {
@@ -272,7 +272,7 @@ export function ReferralTracker() {
             𝕏 Share
           </Button>
           <Button size="sm" className="flex-1 text-xs" variant="outline" onClick={shareToTelegram} data-testid="button-share-telegram">
-            📱 Telegram
+            �“� Telegram
           </Button>
         </div>
       </GlassCard>
@@ -319,7 +319,7 @@ export function ReferralTracker() {
             data-testid="button-how-it-works"
           >
             <div className="flex items-center gap-3">
-              <div className="text-2xl">💰</div>
+              <div className="text-2xl">�’�</div>
               <div className="flex-1">
                 <h4 className="font-bold text-sm">How It Works</h4>
                 <p className="text-[10px] text-muted-foreground">

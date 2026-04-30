@@ -124,7 +124,7 @@ export const WalletConnectModal: React.FC<{ open: boolean; onClose: () => void }
     {
       id: 'phantom',
       name: 'Phantom',
-      icon: 'ğŸ‘»',
+      icon: 'ğŸâ€˜»',
       chain: 'solana',
       hasExtension: hasPhantomExtension,
       deepLink: openPhantomDeepLink,
@@ -134,7 +134,7 @@ export const WalletConnectModal: React.FC<{ open: boolean; onClose: () => void }
     {
       id: 'solflare',
       name: 'Solflare',
-      icon: 'ğŸ”¥',
+      icon: 'ğŸâ€¥',
       chain: 'solana',
       hasExtension: hasSolflareExtension,
       deepLink: openSolflareDeepLink,
@@ -144,7 +144,7 @@ export const WalletConnectModal: React.FC<{ open: boolean; onClose: () => void }
     {
       id: 'coinbase',
       name: 'Coinbase Wallet',
-      icon: 'ğŸ”µ',
+      icon: 'ğŸâ€µ',
       chain: 'multi',
       hasExtension: hasCoinbaseExtension,
       deepLink: openCoinbaseDeepLink,

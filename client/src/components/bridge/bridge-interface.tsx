@@ -58,7 +58,7 @@ type BridgeDirection = 'outbound' | 'inbound';
 
 const CHAIN_ICONS: Record<string, string> = {
   ethereum: 'Î',
-  solana: 'â—',
+  solana: 'ââ€”',
   trustlayer: 'ğŸŒŠ',
 };
 
@@ -237,7 +237,7 @@ export function BridgeInterface() {
                 className="flex items-center justify-between p-3 rounded-lg bg-slate-800/30"
               >
                 <div className="flex items-center gap-2">
-                  <span className="text-xl">{CHAIN_ICONS[chain.chain] || 'ğŸ”—'}</span>
+                  <span className="text-xl">{CHAIN_ICONS[chain.chain] || 'ğŸâ€â€”'}</span>
                   <span className="font-medium capitalize">{chain.chain}</span>
                 </div>
                 <div className="flex items-center gap-2">
@@ -380,7 +380,7 @@ export function BridgeInterface() {
                     className="flex-1"
                     data-testid="btn-chain-solana"
                   >
-                    <span className="mr-2">â—</span> Solana Devnet
+                    <span className="mr-2">ââ€”</span> Solana Devnet
                   </Button>
                 </div>
               </div>

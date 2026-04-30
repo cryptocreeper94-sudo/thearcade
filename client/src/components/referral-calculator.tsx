@@ -195,7 +195,7 @@ export function ReferralCalculator() {
                   />
                 </div>
                 <div className="text-right pt-5">
-                  <span className="text-xs text-muted-foreground">× 1,000 Shells</span>
+                  <span className="text-xs text-muted-foreground">�— 1,000 Shells</span>
                 </div>
               </div>
 
