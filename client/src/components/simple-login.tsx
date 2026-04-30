@@ -593,7 +593,7 @@ export function SimpleLoginModal({ isOpen, onClose, onSuccess, ssoApp: ssoAppPro
                 <Globe className="w-4 h-4 text-cyan-400 mt-0.5 flex-shrink-0" />
                 <p className="text-xs text-slate-400 leading-relaxed">
                   Signed up through <span className="text-cyan-400/80">GarageBot</span> or another Trust Layer ecosystem app?
-                  Use the same email and password here �” one account works across the entire ecosystem.
+                  Use the same email and password here ” one account works across the entire ecosystem.
                 </p>
               </div>
             </div>

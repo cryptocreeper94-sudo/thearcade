@@ -14,7 +14,7 @@ export const NFTCard: React.FC<{ nft: NFT; onBuy?: (nft: NFT) => void; onView?: 
             <div className="text-xs text-slate-400">{nft.collectionId}</div>
           </div>
           <div className="text-right">
-            <div className="text-sm text-white">{nft.price ?? '�”'}</div>
+            <div className="text-sm text-white">{nft.price ?? '”'}</div>
             <div className="text-xs text-slate-400">price</div>
           </div>
         </div>

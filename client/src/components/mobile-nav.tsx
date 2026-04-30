@@ -772,7 +772,7 @@ function MenuPanel({ onClose, onShowLogin }: { onClose: () => void; onShowLogin:
                 <span style={{ fontWeight: 700, fontSize: '15px', color: '#ffffff' }}>August 23rd Launch</span>
                 <Badge className="text-[9px] px-1.5 py-0 bg-red-500/30 text-red-300 border-red-500/30 animate-pulse">ğŸâ€¥</Badge>
               </div>
-              <span style={{ fontSize: '12px', color: 'rgba(255,255,255,0.7)' }}>Signal goes live â€â€ view roadmap</span>
+              <span style={{ fontSize: '12px', color: 'rgba(255,255,255,0.7)' }}>Signal goes live â€ view roadmap</span>
             </div>
             <ArrowRight style={{ width: '18px', height: '18px', color: 'rgba(239,68,68,0.8)' }} />
           </div>

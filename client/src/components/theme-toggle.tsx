@@ -21,7 +21,7 @@ function applyTheme(theme: Theme) {
   }
 }
 
-/** Floating theme toggle �” renders as a small pill in the bottom-left corner.
+/** Floating theme toggle ” renders as a small pill in the bottom-left corner.
  *  Drop into any app's root component: `<FloatingThemeToggle />` */
 export function FloatingThemeToggle() {
   const [theme, setThemeState] = useState<Theme>(getStoredTheme);
@@ -56,7 +56,7 @@ export function FloatingThemeToggle() {
         backdropFilter: 'blur(12px)',
         color: 'var(--text-primary, #fff)',
       }}
-      title={`Theme: ${theme} �” click to switch`}
+      title={`Theme: ${theme} ” click to switch`}
       data-testid="button-theme-toggle"
     >
       <span>{icons[theme]}</span>
@@ -65,7 +65,7 @@ export function FloatingThemeToggle() {
   );
 }
 
-/** Inline theme toggle �” for embedding in navbars/headers */
+/** Inline theme toggle ” for embedding in navbars/headers */
 export function ThemeToggle() {
   const [theme, setThemeState] = useState<Theme>(getStoredTheme);
 
