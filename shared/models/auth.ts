@@ -133,7 +133,7 @@ export const trustLayerMemberships = pgTable("trust_layer_memberships", {
   trustLayerId: varchar("trust_layer_id").notNull().unique(), // Format: TL-XXXXXX
   membershipStatus: varchar("membership_status").notNull().default("pending"), // pending, active, suspended
   membershipType: varchar("membership_type").notNull().default("individual"), // individual, business
-  entryPoint: varchar("entry_point"), // Where they first signed up: tlid.io, dwtl.io, chronochat, etc.
+  entryPoint: varchar("entry_point"), // Where they first signed up: tlid.io, dwtl.io, Signal Chat, etc.
   reconciliationStatus: varchar("reconciliation_status").notNull().default("pending"), // pending, completed
   notificationSent: boolean("notification_sent").default(false),
   notificationSentAt: timestamp("notification_sent_at"),
